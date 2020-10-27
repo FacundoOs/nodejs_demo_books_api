@@ -1,0 +1,7 @@
+{
+  "name": "books_api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "F. Osores",
+  "license": "MIT"
+}
