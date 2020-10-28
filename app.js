@@ -24,7 +24,7 @@ const index = (request, response) => {
 };
 
 const create = (request, response) => {
-  const { author, title } = request.query;
+  const { author, title } = request.body;
   pool.query(
     "INSERT INTO books (author, title) VALUES ($1, $2)",
     [author, title],
